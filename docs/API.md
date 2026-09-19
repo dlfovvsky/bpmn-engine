@@ -567,7 +567,7 @@ engine.resume({ listener }, () => {
 - `getActivityById(activityId)`(#getactivitybyid-activityid): get activity/element by id, returns first found among definitions
 - `getState()`: get execution state
 - `getPostponed()`: get postponed activities, i.e. activities waiting for some interaction, signal, or timer
-- [`signal(message)`](#signalmessage): send signal to execution, distributed to all definitions
+- [`signal(message)`](#signalmessage-options): send signal to execution, distributed to all definitions
 - [`cancelActivity(message)`](#cancelactivitymessage): send cancel activity to execution, distributed to all definitions
 - `stop()`: stop execution
 - `waitFor(event)`: wait for [engine events](#engine-events), returns Promise
